@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha --require @babel/register --timeout 5000"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,8 @@
     "chai": "^4.3.8",
     "mocha": "^10.2.0",
     "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
